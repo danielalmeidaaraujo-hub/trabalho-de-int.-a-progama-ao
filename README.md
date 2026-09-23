@@ -13,9 +13,8 @@ print(f"{pessoa.nome} / {pessoa.idade}")
 
 
 =-=-=-=-=-=-=-=-=-=-=-=--=-=-==-=-=-=-=-=
+
 class Produto:
-
-
 
 
    def __init__(self, nome, preço, estoque):
@@ -31,9 +30,8 @@ print(f"{Produto2.nome} , {Produto2.preço} , {Produto2.estoque}")
 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 class Produto:
-
-
 
 
    def __init__(self, nome, preço, estoque):
@@ -48,6 +46,7 @@ print(f"{Produto1.nome} , {Produto1.preço} , {Produto1.estoque}")
 print(f"{Produto2.nome} , {Produto2.preço} , {Produto2.estoque}")
 
 =-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=--=--=-=-=--=-=
+
 class Aluno:
    
     def __init__(self, nome, nota):
@@ -68,6 +67,7 @@ print(f"A {aluno.nome} tem {aluno.nota} de nota portanto {aluno.aprovado()}")
 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 class Retangulo:
 
 
@@ -91,7 +91,9 @@ print(f"o retangulo {meu_retangulo.altura + meu_retangulo.altura } tem um perime
 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 class ContaBancaria:
+   
    def __init__(self):
        self.__saldo = 0.0
 
